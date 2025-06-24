@@ -21,7 +21,7 @@ public class EmpDetailsController {
 	
 	@Autowired
 	EmpDetailsService empdetailsservice;
-	@PostMapping("/createemp")
+	@PostMapping("/createempeee")
 	public void createEmp(@RequestBody EmpDetailsDto empdetailsdto) {
 		empdetailsservice.createEmp(empdetailsdto);
 	}
